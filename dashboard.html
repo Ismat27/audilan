@@ -5,148 +5,394 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/dashboard.css">
-    <title>Document</title>
+    <title>Audilan</title>
 </head>
 <body>
     <div class="container">
-        <div class="sidebar"></div>
+        <aside class="sidebar">
+            <div class="sidebar-top">
+                <img src="/images/logo.png" alt="">
+                <button class="hide-btn">
+                    <img src="/images/close-btn.png" alt="">
+                </button>
+            </div>
+            <ul class="side-navs">
+                <li><a href="">Dashboard</a></li>
+                <li><a href="">Ebook</a></li>
+                <li><a href="">Audiobook</a></li>
+                <li><a href="">Favourites</a></i1>
+                <li><a href="">Settings</a></li>
+            </ul>
+            <a href="login.html" class="logout">Login</a>
+        </aside>
         <div class="main">
-            <div class="rmd">
-                <a href="">
-                    <div>
-                        <img class="rmd-img" src="/bk-images/displacement.png" alt="">
+            <header class="main-top">
+                <button class="hamburger show-sidebar-btn">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </header>
+            <script src="/js/dashboard.js"></script>
+            <section>
+                <div class="header">
+                    <h2>Recommended For You</h2>
+                    <a>see all</a>
+                </div>
+                <div class="rmd books">
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="stars">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star1.png" alt="">
+                            </p>
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
                     </div>
-                    <div>
-                        <p class="stars">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star1.png" alt="">
-                        </p>
-                        <p class="bk-title">Displacement</p>
-                        <p class="bk-author">Kiku Hughes</p>
+                    <div class="book">
+                        <div>
+                            <img class="book-img"  src="/bk-images/wild_seed.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="stars">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star1.png" alt="">
+                            </p>
+                            <p class="bk-title">I'm a Wild Seed</p>
+                            <p class="bk-author">Sharon Lee de </p>
+                        </div>
                     </div>
-                </a>
-                <a href="">
-                    <div>
-                        <img class="rmd-img"  src="/bk-images/wild_seed.png" alt="">
+                    <div class="book">
+                        <div>
+                            <img class="book-img"  src="/bk-images/bionic.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="stars">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star1.png" alt="">
+                            </p>
+                            <p class="bk-title">Bionic</p>
+                            <p class="bk-author">Koren Shadmi</p>
+                        </div>
                     </div>
-                    <div>
-                        <p class="stars">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star1.png" alt="">
-                        </p>
-                        <p class="bk-title">I'm a Wild Seed</p>
-                        <p class="bk-author">Sharon Lee de la Cruz</p>
+                    <div class="book">
+                        <div>
+                            <img class="book-img"  src="/bk-images/potter.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="stars">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star1.png" alt="">
+                            </p>
+                            <p class="bk-title">Harry Potter and...</p>
+                            <p class="bk-author">J.K. Rowling</p>
+                        </div>
                     </div>
-                </a>
-                <a href="">
-                    <div>
-                        <img class="rmd-img"  src="/bk-images/bionic.png" alt="">
-                    </div>
-                    <div>
-                        <p class="stars">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star1.png" alt="">
-                        </p>
-                        <p class="bk-title">Bionic</p>
-                        <p class="bk-author">Koren Shadmi</p>
-                    </div>
-                </a>
-                <a href="">
-                    <div>
-                        <img class="rmd-img"  src="/bk-images/potter.png" alt="">
-                    </div>
-                    <div>
-                        <p class="stars">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star1.png" alt="">
-                        </p>
-                        <p class="bk-title">Harry Potter and...</p>
-                        <p class="bk-author">J.K. Rowling</p>
-                    </div>
-                </a>
-                <a href="">
-                    <div>
-                        <img class="rmd-img"  src="/bk-images/wild_seed.png" alt="">
-                    </div>
-                    <div>
-                        <p class="stars">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star1.png" alt="">
-                        </p>
-                        <p class="bk-title">I'm a Wild Seed</p>
-                        <p class="bk-author">Sharon Lee de la Cruz</p>
-                    </div>
-                </a>
-            </div>
-            <div class="trend">
-                <div class="trend-bk">
-                    <div class="trend-bk-img">
-                        <img src="/bk-images/light_mage.png" alt="">
-                    </div>
-                    <div class="trend-bk-desc">
-                        <h3 class="title">Light Mage</h3>
-                        <p class="author">Laurie Forest</p>
-                        <p class="stars">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star1.png" alt="">
-                        </p>
-                        <p class="reviews">1,000+ Listeners</p>
+                    <div class="book">
+                        <div>
+                            <img class="book-img"  src="/bk-images/wild_seed.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="stars">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star1.png" alt="">
+                            </p>
+                            <p class="bk-title">I'm a Wild Seed</p>
+                            <p class="bk-author">Sharon Lee de la Cruz</p>
+                        </div>
                     </div>
                 </div>
-                <div class="trend-bk">
-                    <div class="trend-bk-img">
-                        <img src="/bk-images/light_mage.png" alt="">
+            </section>
+            <section>
+                <div class="header">
+                    <h2>Trending Now</h2>
+                    <a>see all</a>
+                </div>
+                <div class="trend">
+                    <div class="trend-bk">
+                        <div class="trend-bk-img">
+                            <img src="/bk-images/light_mage.png" alt="">
+                        </div>
+                        <div class="trend-bk-desc desc">
+                            <h3 class="title">Light Mage</h3>
+                            <p class="author">Laurie Forest</p>
+                            <p class="stars">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star1.png" alt="">
+                            </p>
+                            <p class="reviews">1,000+ Listeners</p>
+                        </div>
                     </div>
-                    <div class="trend-bk-desc">
-                        <h3 class="title">Light Mage</h3>
-                        <p class="author">Laurie Forest</p>
-                        <p class="stars">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star1.png" alt="">
-                        </p>
-                        <p class="reviews">1,000+ Listeners</p>
+                    <div class="trend-bk">
+                        <div class="trend-bk-img">
+                            <img src="/bk-images/fire_queen.png" alt="">
+                        </div>
+                        <div class="trend-bk-desc desc">
+                            <h3 class="title">Light Mage</h3>
+                            <p class="author">Laurie Forest</p>
+                            <p class="stars">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star1.png" alt="">
+                            </p>
+                            <p class="reviews">1,000+ Listeners</p>
+                        </div>
+                    </div>
+                    <div class="trend-bk">
+                        <div class="trend-bk-img">
+                            <img src="/bk-images/prisoner_key.png" alt="">
+                        </div>
+                        <div class="trend-bk-desc desc">
+                            <h3 class="title">Light Mage</h3>
+                            <p class="author">Laurie Forest</p>
+                            <p class="stars">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star.png" alt="">
+                                <img src="/images/star1.png" alt="">
+                            </p>
+                            <p class="reviews">1,000+ Listeners</p>
+                        </div>
                     </div>
                 </div>
-                <div class="trend-bk">
-                    <div class="trend-bk-img">
-                        <img src="/bk-images/light_mage.png" alt="">
+            </section>
+            <section>
+                <div class="header">
+                    <h2>New Releases</h2>
+                    <a>see all</a>
+                </div>
+                <div class="new books">
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
                     </div>
-                    <div class="trend-bk-desc">
-                        <h3 class="title">Light Mage</h3>
-                        <p class="author">Laurie Forest</p>
-                        <p class="stars">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star.png" alt="">
-                            <img src="/images/star1.png" alt="">
-                        </p>
-                        <p class="reviews">1,000+ Listeners</p>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="new"></div>
+            </section>
+            <section>
+                <div class="header">
+                    <h2>Top Romance</h2>
+                    <a href="">see all</a>
+                </div>
+                <div class="new books">
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="header">
+                    <h2>Must Read</h2>
+                    <a href="">see all</a>
+                </div>
+                <div class="new books">
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="header">
+                    <h2>Popular For Self Help</h2>
+                    <a href="">see all</a>
+                </div>
+                <div class="new books">
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                    <div class="book">
+                        <div>
+                            <img class="book-img" src="/bk-images/displacement.png" alt="">
+                        </div>
+                        <div class="desc">
+                            <p class="bk-title">Displacement</p>
+                            <p class="bk-author">Kiku Hughes</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     </div>
 </body>
