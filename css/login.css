@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #E5E5E5;
+    background-color: #fff;
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
@@ -23,7 +23,8 @@ a {
 .container {
     max-width: 1200px;
     margin: auto;
-    padding-block: 10px;
+    display: flex;
+    height: 100vh;
 }
 
 .hide {
@@ -66,6 +67,7 @@ h3 {
     height: 550px;
     max-width: 500px;
     margin: auto;
+    flex-basis: 100%;
 }
 
 .input {
@@ -78,9 +80,13 @@ h3 {
 
 input {
     height: 40px;
-    border: 1px solid rgba(15, 36, 70, 0.96);
+    border: 0.5px solid #fad6b6;
     border-radius: 10px;
     padding-left: 15px;
+}
+
+input:focus {
+    outline: none;
 }
 
 .fpass {

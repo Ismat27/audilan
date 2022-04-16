@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #E5E5E5;
+    background-color: #FFFFFF;
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
@@ -21,9 +21,10 @@ a {
 }
 
 .container {
+    display: flex;
     max-width: 1200px;
     margin: auto;
-    padding-block: 10px;
+    height: 100vh;
 }
 
 .hide {
@@ -99,6 +100,7 @@ h1 {
     height: 550px;
     max-width: 500px;
     margin: auto;
+    flex-basis: 100%;
 }
 
 .input {
@@ -111,9 +113,13 @@ h1 {
 
 input {
     height: 40px;
-    border: 1px solid rgba(15, 36, 70, 0.96);
+    border: 0.5px solid rgba(250, 183, 96, 0.96);
     border-radius: 10px;
     padding-left: 15px;
+}
+
+input:focus {
+    outline: none;
 }
 
 button[type='submit'] {
